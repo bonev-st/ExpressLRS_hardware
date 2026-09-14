@@ -1,0 +1,30 @@
+{
+    "serial_rx": 44,
+    "serial_tx": 43,
+
+    "radio_sck": 7,
+    "radio_miso": 8,
+    "radio_mosi": 9,
+    "radio_nss": 41,
+    "radio_busy": 40,
+    "radio_dio1": 39,
+    "radio_rst": 42,
+
+    "radio_dcdc": true,
+    "radio_tcxo": 2,
+    "radio_tcxo_delay": 320,
+    "radio_dio2_rfsw": true,
+
+    "power_rxen": 38,
+    "power_min": 0,
+    "power_high": 3,
+    "power_max": 3,
+    "power_default": 0,
+    "power_control": 0,
+    "power_values": [10, 14, 17, 20],
+
+    "led": 21,
+    "led_red_invert": true,
+
+    "button": 0
+}

@@ -980,6 +980,15 @@
                 "firmware": "Unified_ESP32_900_TX",
                 "prior_target_name": "DIY_900_TX_ESP32_SX127x_RFM95"
             },
+            "xiao_s3_wio_sx1262": {
+                "product_name": "DIY XIAO ESP32S3 Wio-SX1262 TX",
+                "lua_name": "DIY SX1262 TX",
+                "layout_file": "DIY XIAO ESP32S3 Wio-SX1262.json",
+                "upload_methods": ["uart", "wifi", "etx"],
+                "min_version": "4.0.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_SX126X_TX"
+            },
             "stm32-sx1272": {
                 "product_name": "DIY STM32 SX1272 TX",
                 "upload_methods": ["stlink"],
@@ -1023,6 +1032,15 @@
                 "platform": "esp8285",
                 "firmware": "Unified_ESP8285_900_RX",
                 "prior_target_name": "DIY_900_RX_HUZZAH_RFM95W"
+            },
+            "xiao_s3_wio_sx1262": {
+                "product_name": "DIY XIAO ESP32S3 Wio-SX1262 RX",
+                "lua_name": "DIY SX1262 RX",
+                "layout_file": "DIY XIAO ESP32S3 Wio-SX1262.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "4.0.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_SX126X_RX"
             },
             "stm32-sx1272": {
                 "product_name": "DIY STM32 SX1272 RX",
